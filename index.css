@@ -1,9 +1,28 @@
 body {
   font-family: 'Inter', sans-serif !important;
-  background-image: url("./assets/img/bg.jpg");
+}
+
+.background {
+  background-image: url("/assets/img/bg.jpg");
   background-size: cover;
   background-position: center;
-  backdrop-filter: blur(35px);
+  position: relative;
+}
+
+.background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.text-center {
+  position: relative;
+  z-index: 1;
 }
 
 #scroll-to-top-btn {

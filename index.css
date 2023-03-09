@@ -1,33 +1,52 @@
 body {
-  font-family: 'Inter', sans-serif !important;
+  font-family: "Inter", sans-serif;
 }
 
-.background {
-  background-image: url("./assets/img/bg.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
+.navbar {
+  background-color: #ffffff;
 }
 
-.background::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
+/* Section Home */
+.backgroundHome {
+  background-color: #e94f37;
 }
 
-.text-center {
-  position: relative;
-  z-index: 1;
+.options a:hover {
+  font-size: 30px;
+  transition: all 1s;
 }
 
+/* Section Projects */
+.backgroundProjects {
+  background-color: #ffffff;
+}
+
+/* Section Knowledge */
+.backgroundKnowledge {
+  background-color: #e94f37;
+}
+
+/* Scroll */
 #scroll-to-top-btn {
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 9999;
+  background-color: #ffffff;
+}
+
+#scroll-to-top-btn:hover {
+  animation: rotate 1s linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

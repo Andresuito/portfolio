@@ -6,7 +6,6 @@
     <title>Andrés Barranco</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./index.css" />
     <!-- Icon -->
     <link rel="shortcut icon" href="./assets/img/ux.ico" type="image/x-icon" />
     <!-- Font-->
@@ -26,129 +25,50 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Stlye -->
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <section
       id="home"
-      class="d-flex align-items-center justify-content-center min-vh-100 background"
+      class="d-flex align-items-center text-white justify-content-center min-vh-100 backgroundHome"
     >
       <div class="text-center">
-        <h1 class="my-4 display-1 text-white fw-bold">Andrés B.R</h1>
-        <div class="mt-4">
-          <a href="#projects"
-            ><button class="btn btn-outline-light btn-lg m-3">
-              Projects
-            </button></a
+        <h1 class="my-4 display-1 fw-bold">Andrés B.R</h1>
+        <div
+          class="mt-4 options fw-bold d-flex flex-wrap justify-content-center"
+        >
+          <a href="#home" class="text-white text-decoration-none m-3">#Home</a>
+          <a href="#projects" class="text-white text-decoration-none m-3"
+            >#Projects</a
           >
-          <a href="#knowledge"
-            ><button class="btn btn-outline-light btn-lg m-3">
-              Knowledge
-            </button></a
-          >
-          <a href="#contact"
-            ><button class="btn btn-outline-light btn-lg m-3">
-              Contact
-            </button></a
+          <a href="#knowledge" class="text-white text-decoration-none m-3"
+            >#Knowledge</a
           >
         </div>
       </div>
     </section>
-
     <section
       id="projects"
-      class="d-flex align-items-center justify-content-center min-vh-100 bg-light"
+      class="d-flex align-items-center justify-content-center min-vh-100 backgroundProjects"
     >
       <div class="text-center">
         <h2 class="my-4 display-3 fw-bold">Projects</h2>
       </div>
     </section>
-
     <section
       id="knowledge"
-      class="d-flex align-items-center justify-content-center min-vh-100 bg-dark"
+      class="d-flex align-items-center text-white justify-content-center min-vh-100 backgroundKnowledge"
     >
-      <div class="container">
-        <h2 class="my-5 display-3 text-center text-white fw-bold">My Skills</h2>
-        <div class="row text-white mb-5">
-          <div class="col-md-4">
-            <div class="text-center">
-              <i class="fab fa-html5 fa-4x mb-4" style="color: #e34c26"></i>
-              <h4 class="text-uppercase mb-3 fs-2">Web Development</h4>
-              <ul class="list-unstyled fs-4">
-                <li>
-                  <i class="fab fa-html5 m-2" style="color: #e34c26"></i>HTML5
-                </li>
-                <li>
-                  <i class="fab fa-css3-alt m-2" style="color: #2965f1"></i>CSS3
-                </li>
-                <li>
-                  <i class="fab fa-js-square m-2" style="color: #f0db4f"></i
-                  >JavaScript
-                </li>
-                <li>
-                  <i class="fab fa-react m-2" style="color: #61dafb"></i>React
-                </li>
-                <li>
-                  <i class="fab fa-bootstrap m-2" style="color: #563d7c"></i
-                  >Bootstrap
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="text-center">
-              <i class="fas fa-database fa-4x mb-4" style="color: #007bff"></i>
-              <h4 class="text-uppercase mb-3 fs-2">Backend Development</h4>
-              <ul class="list-unstyled fs-4">
-                <li>
-                  <i class="fab fa-java m-2" style="color: #5382a1"></i>Java
-                </li>
-                <li>
-                  <i class="fab fa-php m-2" style="color: #787cb5"></i>PHP
-                </li>
-                <li>
-                  <i class="fas fa-database m-2" style="color: #007bff"></i>SQL
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="text-center">
-              <i
-                class="fas fa-laptop-code fa-4x mb-4"
-                style="color: #17a2b8"
-              ></i>
-              <h4 class="text-uppercase mb-3 fs-2">Tools & IDEs</h4>
-              <ul class="list-unstyled fs-4">
-                <li>
-                  <i class="fab fa-java m-2" style="color: #5382a1"></i>Eclipse
-                </li>
-                <li>
-                  <i class="fas fa-code m-2" style="color: #007acc"></i>Visual
-                  Studio Code
-                </li>
-                <li>
-                  <i class="fab fa-git m-2" style="color: #f34f29"></i>Git
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact">
-      <div
-        class="d-flex align-items-center justify-content-center min-vh-100 bg-light"
-      >
-        <div class="text-center">
-          <h2 class="my-4 display-3 fw-bold">Contact</h2>
-        </div>
+      <div class="text-center">
+        <h2 class="my-4 display-3 fw-bold">Knowledge</h2>
       </div>
     </section>
     <a href="#home"
       ><button
         id="scroll-to-top-btn"
-        class="btn rounded-circle btn-secondary d-none"
+        class="btn rounded-circle d-none"
       >
         <i class="fa-solid fa-arrow-up"></i></button
     ></a>
